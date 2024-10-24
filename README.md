@@ -1,9 +1,11 @@
 <h1 align=center>Fhenix Onchain Task</h1>
 
+![GYB2KYOXkAACMg0](https://github.com/user-attachments/assets/b16c4bef-f6e8-4cd0-b601-56a16b4ee71c)
+
 ## Join Discord
 - Jika belum gabung dengan discord fhenix silahkan gabung dulu di sini :  https://discord.gg/2ah76D2Q
 - Masuk ke channel `#🤖|bot-commands` selanjutnya ketik `/quests` dan pilih nomor quest untuk deploy
-
+![Screenshot 2024-10-24 224102](https://github.com/user-attachments/assets/7f1cf4d0-08bc-4196-894b-35da48ad3459)
 
 ## Setup Network
 - Visit [Chainlist](https://chainlist.org/?testnets=true&search=Fhenix+Helium)
@@ -19,6 +21,7 @@
 # Deploy the Smart Contract
 - Visit [Remix Ethereum](https://remix.ethereum.org/)
 - Bikin File `.sol` baru kasih nama bebas misal `haq.sol`
+![Screenshot 2024-10-24 224801](https://github.com/user-attachments/assets/037ca742-40b5-46e8-ae1d-7ea71f5104fb)
 - Copy script berikut
 ```bash
 // SPDX-License-Identifier: MIT
@@ -36,12 +39,17 @@ contract SimpleStorage {
     }
 }
 ```
-- Click ikon `Solidity Compiler` kemudian compile file yang barusan kalian bikin
+- Click ikon `Solidity Compiler` kemudian compile file yang barusan kalian bikin lalu klik compile
+
+![Screenshot 2024-10-24 224857](https://github.com/user-attachments/assets/e9e75522-e197-406a-82a4-feaa3d623253)
 - Selanjutnya ubah chain dari wallet kalian ke `Fhenix Helium`
 - Pilih `Injected Provider` kemudia Connect wallet kalian ke remix
 - Kemudian click `Deploy` untuk mendeploy contract
+- Approve tx di wallet yang kalian connect ke remix
+
+![Screenshot 2024-10-24 225119](https://github.com/user-attachments/assets/3ae67df0-4506-45a9-8a96-b6f88d8c8dbf)
 - Tralala kalian sudah berhasil mendeploy contract di `Fhenix Helium`
-- Kalian bisa cek contract yang telah kalian deploy disini
+- Kalian bisa cek contract yang telah kalian deploy di deployed contract posisi pojok kiri bawah
 - Selanjutnya adalah kalian harus membuat 5 contract untuk mendapatkan 150 points
 - Untuk mendeploy contract lagi kalian tinggal click `Deploy` lagi sampai 5 contract
 
