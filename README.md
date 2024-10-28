@@ -5,6 +5,8 @@
 ## Join Discord
 - Jika belum gabung dengan discord fhenix silahkan gabung dulu di sini :  https://discord.gg/2ah76D2Q
 - Masuk ke channel `#🤖|bot-commands` selanjutnya ketik `/quests` dan pilih nomor quest untuk deploy
+- Task deploy `2`,`8`
+
 ![Screenshot 2024-10-24 224102](https://github.com/user-attachments/assets/7f1cf4d0-08bc-4196-894b-35da48ad3459)
 
 ## Setup Network
@@ -21,6 +23,7 @@
 # Deploy the Smart Contract
 - Visit [Remix Ethereum](https://remix.ethereum.org/)
 - Bikin File `.sol` baru kasih nama bebas misal `haq.sol`
+
 ![Screenshot 2024-10-24 224801](https://github.com/user-attachments/assets/037ca742-40b5-46e8-ae1d-7ea71f5104fb)
 - Copy script berikut
 ```bash
@@ -43,7 +46,7 @@ contract SimpleStorage {
 
 ![Screenshot 2024-10-24 224857](https://github.com/user-attachments/assets/e9e75522-e197-406a-82a4-feaa3d623253)
 - Selanjutnya ubah chain dari wallet kalian ke `Fhenix Helium`
-- Pilih `Injected Provider` kemudia Connect wallet kalian ke remix
+- Pilih `Injected Provider` kemudian Connect wallet kalian ke remix
 - Kemudian click `Deploy` untuk mendeploy contract
 - Approve tx di wallet yang kalian connect ke remix
 
@@ -56,6 +59,11 @@ contract SimpleStorage {
 ## Contract Verification
 
 - Untuk Verif Contract sudah otomatis 
+![Screenshot 2024-10-28 233305](https://github.com/user-attachments/assets/2ad5fc7e-a47b-4be3-875d-01f2ee329dbb)
 
+# Submit Task
+- Kalian masuk kembali ke channel task kalian terus klik edit jika baru deploy 1 kontrak
+- Ingat jangan dulu klik submit jika kalian belum deploy 5 Contract
+- Jika sudah 5 contract baru klik submit
 
-# Clear Task
+![Screenshot 2024-10-28 233355](https://github.com/user-attachments/assets/1d62d143-8db1-409e-a9db-a5898cb585de)
